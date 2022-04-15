@@ -9,11 +9,11 @@ console.log("TESTING TESTING TESTING");
 // }); */
 
 $("button").hover(function(){
-    $(".button__Link").addClass("hover__ButtonText");
-    $("button").addClass("hover__State");
+    $(this).addClass("hover__ButtonText");
+    $(this).addClass("hover__State");
 });
 
 $("button").mouseleave(function(){
-    $(".button__Link").removeClass("hover__ButtonText");
-    $("button").removeClass("hover__State");
+    $(this).removeClass("hover__ButtonText");
+    $(this).removeClass("hover__State");
 });
