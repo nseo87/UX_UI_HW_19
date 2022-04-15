@@ -278,16 +278,28 @@ h3{
 }
 .workGrid p{
     color: #FFEDDF;
+    font-family: "Poppins";
 }
+
+
+
 
 h4{
     font-family: "Fjalla One";
     font-size: 20px;
     color:#FFEDDF
 }
+
+.myWork{
+    margin-top: 15%;
+}
+
+.myWork h1{
+    margin-top: -10%;
+}
 .workGrid{
     display: grid;
-    grid-template-rows: 35% 35% 35%;
+    grid-template-rows: 45% 45% 45%;
     justify-content: center;
     align-self: center;
 }
