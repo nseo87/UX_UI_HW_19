@@ -1,0 +1,263 @@
+body{
+    background-color: #0d1321;
+}
+
+.logo__container{
+    margin-left: 3%;
+}
+
+
+.navlinks__container{
+    display: flex;
+    width: 393px;
+    height: 57px;    
+    margin-top: -5.5%;
+    margin-left: 75%;
+    color: #FFEDDF;
+    font-family: 'Fjalla One';
+    font-size: 20px;
+}
+
+li{
+    display: inline-flex;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color:#FFEDDF;
+}
+a:hover{
+    text-decoration: underline;
+    color: #F2af29;
+}
+
+
+.hero__block{
+    background-color: #F2af29;
+    height: 406px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.text__container{
+    color: #0d1321;
+    margin-left: 200px;
+   
+}
+
+.hero__heading{
+    font-family: 'Fjalla One';
+    font-size: 60px;
+    
+}
+
+.hero__description{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+button{
+    font-family: 'Poppins';
+    background-color:#0d1321 ;
+    color: #FFEDDF;
+    border-radius: 8px;
+}
+.hero__image{
+margin-left: 70%;
+margin-top: -450px;
+opacity: 80%;
+}
+
+.love__design{
+    position: relative;
+    background-color: #FFEDDF;
+    height: 800px;
+    width:100%;
+    margin-top: 500px;
+}
+
+.UX__skills{
+    position: relative;
+    background-color: #FFEDDF;
+    height: 800px;
+    width:100%;
+    margin-top: 80px;
+}
+
+.section__heading{
+    position: absolute;
+    font-family:'Fjalla One';
+    Font-size:40px;
+    color:#0d1321;
+    top: 15%;
+    margin-left:25px;
+   
+}
+
+.section__text{
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 20px;
+    color:#0d1321;
+    margin-left: 30px;
+    top: 30%;
+}
+.design__logo{
+    position: relative;
+    margin-left: 1215px;
+    transform: translateY(400px);
+}
+
+.header__portfolio{
+    position: relative;
+    color:#FFEDDF;
+    text-align: center;
+    top: 200px;
+}
+
+h1{
+   
+    font-family: "Fjalla One";
+    font-size: 60px;
+}
+
+p{
+
+    font-family:'Poppins';
+    font-size: 20px;
+    top: -100px;
+}
+
+.caseStudy1__border{
+    position: relative;
+    border: 10px solid #F2af29;
+    border-radius: 8px; 
+    height:500px;
+    width: 1500px;
+    top: 300px;
+    left: 120px;
+}
+
+.caseStudy1__text{
+    position: absolute;
+    color:#FFEDDF;
+    font-family: 'Poppins';
+    text-align: center;
+    left: 115px;
+    top: 80px;
+}
+
+.caseStudy__paragraph{
+    font-size: 14px;
+}
+
+.laptop{
+    position: absolute;
+    left: 700px;
+    top:45px;
+}
+
+.mobile{
+    position: absolute;
+    left: 1300px;
+    top: 185px;
+}
+
+.connectWithMe{
+    position: relative;
+    background-color: #FFEDDF;
+    height: 550px;
+    top: 600px;
+}
+
+.form__heading{
+    color:#0d1321;
+    text-align: center;
+}
+.connect__Form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    left: 700px;
+}
+
+form{
+    position: relative;
+    top: 5px;
+}
+
+label, input, textarea{
+    position: relative;
+    top: -40px;
+}
+label {
+    font-family: 'Poppins';
+}
+
+#submitButton{
+    background-color: #0d1321;
+    color:#FFEDDF;
+    font-family: "Poppins";
+    border-radius: 8px;
+}
+
+footer{
+   position: relative;
+   height: 60px;
+    background-color: #0d1321;
+    top: 600px;
+}
+.copyright__text{
+    color:#FFEDDF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mySkills{
+    background-color: #FFEDDF;
+    text-align: center;
+}
+
+.flexContainer{
+   display: flex;
+   flex-direction: row;
+}
+
+h3{
+    font-family: "Fjalla One";
+}
+
+.UX__research, .user__Empathy, 
+.data__Analysis{
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.myWork{
+    text-align: center;
+}
+
+.myWork, h1{
+    color:#FFEDDF;
+}
+
+h4{
+    font-family: "Fjalla One";
+    font-size: 30px;
+}
+.workGrid{
+    display: grid;
+    grid-template-rows: 35% 35% 35%;
+    justify-content: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px){
+    .flexContainer{flex-direction: column;}
+    .UX__research, .user__Empathy, .data__Analysis{width: fit-content;}
+
+}
+
+
+    
