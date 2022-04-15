@@ -6,6 +6,10 @@ body{
     margin-left: 3%;
 }
 
+h1{
+    font-family: "Fjalla One";
+    font-size: 60px;
+}
 
 .navlinks__container{
     display: flex;
@@ -26,24 +30,47 @@ a {
     text-decoration: none;
     color:#FFEDDF;
 }
-a:hover{
-    text-decoration: underline;
-    color: #F2af29;
+.navlink:hover{
+    text-decoration: none;
+    color:#F2af29;
+    
+}
+
+
+.hover__ButtonText{
+    color:#0d1321;
+    font-weight: bold;
+}
+
+.hover__State{
+    animation: ease;
+    animation-duration: 0.3s;
+    border: 6px solid #0d1321;
+    background-color: #F2af29;
+    
 }
 
 
 .hero__block{
+    display: flex;
     background-color: #F2af29;
     height: 406px;
     width: 100%;
     margin-top: 10%;
 }
 
-.text__container{
+.hero__text{
     color: #0d1321;
-    margin-left: 200px;
-   
+    margin-left: 500px;
+    margin-top: -20px;
+
 }
+
+.hero__image{
+    margin-left: 100%;
+    margin-top: -100px;
+    opacity: 80%;
+    }
 
 .hero__heading{
     font-family: 'Fjalla One';
@@ -60,13 +87,12 @@ button{
     font-family: 'Poppins';
     background-color:#0d1321 ;
     color: #FFEDDF;
+    border: 3px solid #0d1321;
     border-radius: 8px;
+    height: 41px;
+    width:154px;
 }
-.hero__image{
-margin-left: 70%;
-margin-top: -450px;
-opacity: 80%;
-}
+
 
 .love__design{
     position: relative;
@@ -111,21 +137,21 @@ opacity: 80%;
     position: relative;
     color:#FFEDDF;
     text-align: center;
-    top: 200px;
+    top: 140px;
 }
 
 .header__portfolio h1{
     color: #FFEDDF;
 }
 
-h1{
+.caseStudy1__text h1{
     font-family: "Fjalla One";
-    font-size: 60px;
+    font-size: 40px;
+    top: 20%;
    
 }
 
-p{
-
+.header__portfolio p{
     font-family:'Poppins';
     font-size: 20px;
     top: -100px;
@@ -138,7 +164,7 @@ p{
     height:500px;
     width: 1500px;
     top: 300px;
-    left: 120px;
+    left: 100px;
 }
 
 .caseStudy1__text{
@@ -166,7 +192,7 @@ p{
     top: 185px;
 }
 
-.connectWithMe{
+#connectWithMe{
     position: relative;
     background-color: #FFEDDF;
     height: 550px;
@@ -208,7 +234,7 @@ footer{
    position: relative;
    height: 60px;
     background-color: #0d1321;
-    top: 600px;
+    top: 80px;
 }
 .copyright__text{
     color:#FFEDDF;
@@ -247,13 +273,16 @@ h3{
     text-align: center;
 }
 
+.myWork h1{
+    color: #FFEDDF;
+}
 .workGrid p{
     color: #FFEDDF;
 }
 
 h4{
     font-family: "Fjalla One";
-    font-size: 30px;
+    font-size: 20px;
     color:#FFEDDF
 }
 .workGrid{
@@ -269,5 +298,3 @@ h4{
 
 }
 
-
-    
